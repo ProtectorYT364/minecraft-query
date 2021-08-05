@@ -1,6 +1,6 @@
 const Query = require("./Query");
 
-const q = new Query({host: 'localhost', port: 5000});
+const q = new Query({host: 'mc.hypixel.net', port: 25565});
 
 q.fullStat()
   .then(success => {
